@@ -25,28 +25,14 @@ from sklearn.decomposition import PCA
 from sklearn import svm
 ```
 
-    Populating the interactive namespace from numpy and matplotlib
-    
-
 
 ```python
 def now():
     tmp = datetime.datetime.now().strftime("%m/%d/%y %H:%M:%S")
     return tmp
 
-def change_dir(dir):
-    os.chdir("C:/Users/ADK/PycharmProjects/DigitRecognition")
-    print("{}: Current Working Directory: {}".format(now(), os.getcwd()))
-    os.chdir(dir)
-    print("{}: Now Working Directory: {}".format(now(), os.getcwd()))
-
-data_dir = "./Data"
-change_dir(str(data_dir))
 ```
 
-    03/03/17 16:03:54: Current Working Directory: C:\Users\ADK\PycharmProjects\DigitRecognition
-    03/03/17 16:03:54: Now Working Directory: C:\Users\ADK\PycharmProjects\DigitRecognition\Data
-    
 
 
 ```python
