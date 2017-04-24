@@ -1,4 +1,8 @@
-### This is the first try version of MNIST classification
+## This is the first try of MNIST classification for Kaggle competition
+## This is the illustration of using PCA and other machine learning algorithms (i.e. RandomForest).
+
+### By N. Satsawat
+### Date: 24-Apr-2017
 
 ```python
 # Import necessary library
